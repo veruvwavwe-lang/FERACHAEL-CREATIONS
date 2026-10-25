@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAE'S CREATIONS</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #faf7ff;
+  color: #30233c;
+  line-height: 1.6;
+}
+
+header {
+  background: #21063d;
+  color: white;
+  padding: 20px 12px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 7px;
+  font-size: 14px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #21063d, #59268a);
+  color: white;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.crown {
+  font-size: 42px;
+}
+
+.hero h1 {
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.hero p {
+  margin: 12px 0;
+}
+
+.button {
+  display: inline-block;
+  background: white;
+  color: #35105f;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+section {
+  padding: 45px 18px;
+}
+
+h2 {
+  color: #35105f;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.intro {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 25px;
+  color: #665a70;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid #d8d0e2;
+  border-radius: 15px;
+  padding: 22px 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px #35105f12;
+}
+
+.icon {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  color: #35105f;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #542080;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.card a {
+  display: inline-block;
+  background: #35105f;
+  color: white;
+  padding: 9px 17px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.about {
+  background: #eee7f6;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-box {
+  background: #21063d;
+  color: white;
+  padding: 30px 18px;
+  border-radius: 16px;
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+.contact-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #160426;
+  color: white;
+  text-align: center;
+  padding: 24px 12px;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 29px;
+  }
+
+  nav a {
+    margin: 0 4px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">♛ RAE'S CREATIONS</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <div class="crown">♛</div>
+  <h1>RAE'S CREATIONS</h1>
+  <p><strong>Where Creativity Meets Elegance.</strong></p>
+  <p>Beautiful handmade crochet pieces, lovingly created just for you.</p>
+  <a class="button" href="#products">Explore Our Collection</a>
+</div>
+
+<section id="products">
+  <h2>Our Crochet Collection</h2>
+  <p class="intro">
+    Every stitch tells a story. Find your next favourite handmade piece!
+  </p>
+
+  <div class="products">
+
+    <div class="card">
+      <div class="icon">🧢</div>
+      <h3>Ruffle Hats</h3>
+      <p>Stylish handmade hats with a single ruffle.</p>
+      <p class="price">
+        Small: ₦5,500<br>
+        Medium: ₦6,500<br>
+        Large: ₦7,600
+      </p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧶</div>
+      <h3>Bucket Hats</h3>
+      <p>Beautiful crochet hats for your everyday style.</p>
+      <p class="price">₦5,500–₦6,600</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎀</div>
+      <h3>Scrunchies</h3>
+      <p>Lovely handmade hair accessories.</p>
+      <p class="price">
+        With elastic: ₦1,100<br>
+        Without elastic: ₦900
+      </p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">✨</div>
+      <h3>Bandanas</h3>
+      <p>Add a handmade touch to your outfit.</p>
+      <p class="price">₦2,700–₦3,200</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧤</div>
+      <h3>Fingerless Gloves</h3>
+      <p>Comfortable crochet gloves in two lengths.</p>
+      <p class="price">
+        Wrist length: ₦2,000<br>
+        Elbow length: ₦3,500
+      </p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧶</div>
+      <h3>Beanies</h3>
+      <p>Cosy handmade crochet hats.</p>
+      <p class="price">₦8,000–₦10,000</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">👚</div>
+      <h3>Mesh Tops</h3>
+      <p>Long-sleeved crochet fashion pieces.</p>
+      <p class="price">
+        Above bust: ₦4,500–₦5,000<br>
+        Below bust: ₦6,000–₦8,000
+      </p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🍼</div>
+      <h3>Water Bottle Holders</h3>
+      <p>Handmade holders for your water bottle.</p>
+      <p class="price">₦1,700–₦4,000</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">👜</div>
+      <h3>Granny Square Bags</h3>
+      <p>Unique handmade crochet bags.</p>
+      <p class="price">Ask for a price.</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📱</div>
+      <h3>Phone Cases</h3>
+      <p>Custom crochet covers for your phone.</p>
+      <p class="price">Ask for a price.</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔑</div>
+      <h3>Keychains</h3>
+      <p>Small handmade gifts and accessories.</p>
+      <p class="price">Ask for a price.</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌸</div>
+      <h3>Headbands</h3>
+      <p>Elegant handmade crochet accessories.</p>
+      <p class="price">Ask for a price.</p>
+      <a href="#contact">Order Now</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>Made With Love</h2>
+  <p class="intro">
+    At RAE'S CREATIONS, we believe handmade pieces can be beautiful
+    and special. Every creation is made with care, creativity and
+    attention to detail.
+  </p>
+  <p><strong>Where Creativity Meets Elegance.</strong></p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Let's Create Something Beautiful</h2>
+  <p class="intro">
+    Ready to order? Contact us on WhatsApp to discuss your chosen item,
+    colour and size.
+  </p>
+
+  <div class="contact-box">
+    <h3>Place Your Order 💜</h3>
+    <p>We would love to make something special for you!</p>
+    <a class="button"
+       href="https://wa.me/2340000000000?text=Hello%20RAE%27S%20CREATIONS%2C%20I%27d%20like%20to%20place%20an%20order."
+       target="_blank" rel="noopener">
+      Chat With Us on WhatsApp
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>♛ RAE'S CREATIONS</strong></p>
+  <p>Where Creativity Meets Elegance.</p>
+  <p>Handmade with care. Created with love.</p>
+</footer>
+
+</body>
+  </html>
